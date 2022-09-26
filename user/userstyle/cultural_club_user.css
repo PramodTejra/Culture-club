@@ -1,0 +1,115 @@
+/* body{
+    margin-top: 20px;
+    background-color: lightgray;
+}
+.main{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topbar{
+    background-color: teal;
+    overflow: hidden;
+}
+.topbar a{
+    float: right;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px 26px;
+    text-decoration: none;
+    font-size: 26px;
+}
+.sidebar{
+    background-color: #333;
+    color: white;
+    height: 100%;
+}
+.sidebar a{
+    margin-left: 10px;
+    display: block;
+    color: white;
+    padding-bottom: 10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    background-color: whitesmoke;
+} */
+
+body {
+    /* background: #67B26F;   */
+    /* background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);   */
+    /* background: linear-gradient(to right, #4ca2cd, #67B26F);  */
+    padding: 0;
+    margin: 0;
+    background-image: url(back3.jpg);
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+.student-profile .card {
+    margin-top: 100px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(116, 112, 112, 0.5);
+    border-right: 1px solid rgba(116, 108, 108, 0.2);
+    border-bottom: 1px solid rgba(124, 118, 118, 0.2);
+    background-color: rgba(43, 93, 136, 0.826);
+    border-radius: 10px;
+}
+
+.student-profile .card .card-header .profile_img {
+    width: 150px;
+    height: 152px;
+    margin: 10px;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 10px solid #ccc;
+    border-radius: 50%;
+    
+}
+.student-profile .card h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.student-profile .card p {
+    font-size: 16px;
+    color: #fff;
+}
+.student-profile .table th,
+.student-profile .table td {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #fff;
+}
+.container1{
+    width: 1110px;
+    height: 230px;
+    background-color: #fff;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 15px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(116, 112, 112, 0.5);
+    border-right: 1px solid rgba(116, 108, 108, 0.2);
+    border-bottom: 1px solid rgba(124, 118, 118, 0.2);
+    background-color: rgba(43, 93, 136, 0.826);
+    border-radius: 10px;
+}
+.container1 .part{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 14px;
+    margin-left: 14px;
+}
+.container1 .part i{
+    color: black;
+    color: #fff;
+}
