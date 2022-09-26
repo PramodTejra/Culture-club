@@ -19,8 +19,8 @@ section{
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background: linear-gradient(to bottom,#4d81d4,#476074); */
-/*     background-image: url(LogSign/loginStyle/back3.jpg);    */
+    background: linear-gradient(to bottom,#4d81d4,#476074);
+    background-image: url(LogSign/loginStyle/back3.jpg);   
 }
 
 section .color
