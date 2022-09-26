@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+
+body{
+    overflow: hidden;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(to bottom,#4d81d4,#476074); */
+    background-image: url(back3.jpg);   
+}
+
+section .color
+{
+    position: absolute;
+    filter: blur(150px);
+}
+
+section .color:nth-child(1){
+    top: -350px;
+    width: 600px;
+    height: 600px;
+    background: #425fb5;
+}
+
+section .color:nth-child(2){
+    bottom: -150px;
+    left: 100px;
+    width: 500px;
+    height: 500px;
+    background: #1f1c30;
+}
+
+section .color:nth-child(3){
+    bottom: 50px;
+    right: 100px;
+    width: 300px;
+    height: 300px;
+    background: #111115;
+}
+
+.box{
+    position: relative;
+}
+
+.box .square{
+    position: absolute;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(116, 112, 112, 0.5);
+    border-right: 1px solid rgba(116, 108, 108, 0.2);
+    border-bottom: 1px solid rgba(124, 118, 118, 0.2);
+    background-color: rgba(73, 128, 186, 0.42);
+    border-radius: 10px;
+    animation: animate 10s linear infinite;
+    animation-delay: calc(-1s * var(--i));
+}
+
+@keyframes animate
+{
+    0%,100%
+    {
+        transform: translateY(-40px);
+    }
+    50%
+    {
+        transform: translatey(40px);
+    }
+}
+
+.box .square:nth-child(1){
+    top: -50px;
+    right: -60px;
+    width: 100px;
+    height: 100px;
+}
+
+.box .square:nth-child(2){
+    top: 150px;
+    left: -100px;
+    width: 120px;
+    height: 120px;
+    z-index: 2;
+}
+
+.box .square:nth-child(3){
+    bottom: 50px;
+    right: -60px;
+    width: 80px;
+    height: 80px;
+    z-index: 2;
+}
+
+.box .square:nth-child(4){
+    bottom: -80px;
+    left: 100px;
+    width: 50px;
+    height: 50px;
+}
+
+.box .square:nth-child(5){
+    top: -80px;
+    left: 140px;
+    width: 60px;
+    height: 60px;
+}
+.container{
+    position: relative;
+    width: 400px;
+    min-height: 400px;
+    background-color: rgba(72, 125, 169, 0.317);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(53, 52, 53, 0.1);
+    border: 1px solid rgba(77, 106, 178, 0.5);
+    border-right: 1px solid rgba(46, 111, 182, 0.2);
+    border-bottom: 1px solid rgba(46, 100, 154, 0.2);
+    
+}
+
+.form{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+}
+
+.form h2{
+    position: relative;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+.form h2::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 80px;
+    height: 4px;
+    background: #fff;
+}
+
+.form .inputBox{
+    width: 100%;
+    margin-top: 20px;
+}
+.form .inputBox i{
+    margin-left: 10px;
+    font-size: 35px;
+    color: #fff;
+}
+.form .inputBox input{
+    width: 100%;
+    background: rgba(121, 193, 244, 0.466);
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 35px;
+    border: 1px solid rgba(84, 117, 199, 0.5);
+    border-right: 1px solid rgba(28, 104, 185, 0.2);
+    border-bottom: 1px solid rgba(113, 188, 235, 0.2);
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.form .inputBox input::placeholder{
+    color: #fff;
+}
+
+.form .inputBox input[type="submit"]{
+    background: #fff;
+    color: rgb(88, 84, 84);
+    max-width: 100px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.form .inputBox input[type="submit"]:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #4b70ab76;
+}
+
+.forget{
+    margin-top: 5px;
+    color: #fff;
+}
+
+.forget a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.forget a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #346dc9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
